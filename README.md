@@ -54,6 +54,9 @@ You may need, initially, to run twice in debugging mode before environment varia
 
 For more debugging features, please visit [Debug C++ in Visual Studio Code](https://code.visualstudio.com/docs/cpp/cpp-debug).
 
+Note: you should deactivate any conda environment with `conda deactivate` before running as it is known to interfere with system
+R or R package native dependencies versions. 
+
 ## More information
 
 When properly configured, the Rcpp development environment is full-featured as general C/C++ development in VSCode.

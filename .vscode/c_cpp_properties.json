@@ -4,7 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${env:HOME}/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include",
+                "${env:HOME}/.local/lib/R/3.6.2/site-library/Rcpp/include",
+                "/usr/local/include",
+                "/usr/local/lib/R/include",
                 "/usr/share/R/include"
             ],
             "defines": [],
